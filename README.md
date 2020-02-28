@@ -19,7 +19,7 @@ $ npm install -g oclif-boilerplate
 $ oclifsample COMMAND
 running command...
 $ oclifsample (-v|--version|version)
-oclif-boilerplate/1.0.0 darwin-x64 node-v12.14.1
+oclif-boilerplate/0.0.0 darwin-x64 node-v12.14.1
 $ oclifsample --help [COMMAND]
 USAGE
   $ oclifsample COMMAND

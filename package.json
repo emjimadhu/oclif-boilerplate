@@ -1,7 +1,7 @@
 {
   "name": "oclif-boilerplate",
   "description": "A Boilerplate for Oclif",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "author": "Em Ji Madhu",
   "bin": {
     "oclifsample": "./bin/run"
@@ -31,6 +31,7 @@
     "globby": "^10",
     "husky": "^4.2.3",
     "mocha": "^5",
+    "np": "^6.2.0",
     "nyc": "^14",
     "ts-node": "^8",
     "typescript": "^3.3"
@@ -68,7 +69,8 @@
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif-dev readme && git add README.md",
     "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'",
-    "lint:fix": "eslint 'src/**/*.ts' 'test/**/*.ts' --fix"
+    "lint:fix": "eslint 'src/**/*.ts' 'test/**/*.ts' --fix",
+    "release": "np"
   },
   "types": "lib/index.d.ts",
   "husky": {
