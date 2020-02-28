@@ -4,9 +4,9 @@ vue-schematics-cli
 A CLI for @emjimadhu/vue-schematics
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/vue-schematics-cli.svg)](https://npmjs.org/package/vue-schematics-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/vue-schematics-cli.svg)](https://npmjs.org/package/vue-schematics-cli)
-[![License](https://img.shields.io/npm/l/vue-schematics-cli.svg)](https://github.com/emjimadhu/vue-schematics-cli/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/@emjimadhu/vue-schematics-cli.svg)](https://npmjs.org/package/@emjimadhu/vue-schematics-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/@emjimadhu/vue-schematics-cli.svg)](https://npmjs.org/package/@emjimadhu/vue-schematics-cli)
+[![License](https://img.shields.io/npm/l/@emjimadhu/vue-schematics-cli.svg)](https://github.com/emjimadhu/vue-schematics-cli/blob/develop/LICENSE)
 
 <!-- toc -->
 * [Usage](#usage)
