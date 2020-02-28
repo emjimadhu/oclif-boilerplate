@@ -1,7 +1,7 @@
 oclif-boilerplate
 ==================
 
-A CLI for @emjimadhu/vue-schematics
+A Basic OCLIF CLI Boilerplate.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/@emjimadhu/oclif-boilerplate.svg)](https://npmjs.org/package/@emjimadhu/oclif-boilerplate)
