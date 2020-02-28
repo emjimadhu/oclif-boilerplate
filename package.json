@@ -1,5 +1,5 @@
 {
-  "name": "vue-schematics-cli",
+  "name": "@emjimadhu/vue-schematics-cli",
   "description": "A CLI for @emjimadhu/vue-schematics",
   "version": "1.0.0",
   "author": "Em Ji Madhu",
