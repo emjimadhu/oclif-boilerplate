@@ -1,12 +1,12 @@
 {
-  "name": "@emjimadhu/vue-schematics-cli",
-  "description": "A CLI for @emjimadhu/vue-schematics",
+  "name": "oclif-boilerplate",
+  "description": "A Boilerplate for Oclif",
   "version": "1.0.0",
   "author": "Em Ji Madhu",
   "bin": {
-    "vueschematics": "./bin/run"
+    "oclifsample": "./bin/run"
   },
-  "bugs": "https://github.com/emjimadhu/vue-schematics-cli/issues",
+  "bugs": "https://github.com/emjimadhu/oclif-boilerplate/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -43,22 +43,24 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/emjimadhu/vue-schematics-cli",
+  "homepage": "https://github.com/emjimadhu/oclif-boilerplate",
   "keywords": [
-    "oclif"
+    "oclif",
+    "boilerplate",
+    "schematics"
   ],
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "vueschematics",
+    "bin": "oclifsample",
     "plugins": [
       "@oclif/plugin-help",
       "@oclif/plugin-warn-if-update-available",
       "@oclif/plugin-not-found"
     ]
   },
-  "repository": "emjimadhu/vue-schematics-cli",
+  "repository": "emjimadhu/oclif-boilerplate",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",

@@ -1,12 +1,12 @@
-vue-schematics-cli
+oclif-boilerplate
 ==================
 
 A CLI for @emjimadhu/vue-schematics
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@emjimadhu/vue-schematics-cli.svg)](https://npmjs.org/package/@emjimadhu/vue-schematics-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/@emjimadhu/vue-schematics-cli.svg)](https://npmjs.org/package/@emjimadhu/vue-schematics-cli)
-[![License](https://img.shields.io/npm/l/@emjimadhu/vue-schematics-cli.svg)](https://github.com/emjimadhu/vue-schematics-cli/blob/develop/LICENSE)
+[![Version](https://img.shields.io/npm/v/@emjimadhu/oclif-boilerplate.svg)](https://npmjs.org/package/@emjimadhu/oclif-boilerplate)
+[![Downloads/week](https://img.shields.io/npm/dw/@emjimadhu/oclif-boilerplate.svg)](https://npmjs.org/package/@emjimadhu/oclif-boilerplate)
+[![License](https://img.shields.io/npm/l/@emjimadhu/oclif-boilerplate.svg)](https://github.com/emjimadhu/oclif-boilerplate/blob/develop/LICENSE)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -15,29 +15,29 @@ A CLI for @emjimadhu/vue-schematics
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g vue-schematics-cli
-$ vueschematics COMMAND
+$ npm install -g oclif-boilerplate
+$ oclifsample COMMAND
 running command...
-$ vueschematics (-v|--version|version)
-vue-schematics-cli/1.0.0 darwin-x64 node-v12.14.1
-$ vueschematics --help [COMMAND]
+$ oclifsample (-v|--version|version)
+oclif-boilerplate/1.0.0 darwin-x64 node-v12.14.1
+$ oclifsample --help [COMMAND]
 USAGE
-  $ vueschematics COMMAND
+  $ oclifsample COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`vueschematics hello [FILE]`](#vueschematics-hello-file)
-* [`vueschematics help [COMMAND]`](#vueschematics-help-command)
+* [`oclifsample hello [FILE]`](#oclifsample-hello-file)
+* [`oclifsample help [COMMAND]`](#oclifsample-help-command)
 
-## `vueschematics hello [FILE]`
+## `oclifsample hello [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ vueschematics hello [FILE]
+  $ oclifsample hello [FILE]
 
 OPTIONS
   -f, --force
@@ -45,19 +45,19 @@ OPTIONS
   -n, --name=name  name to print
 
 EXAMPLE
-  $ vueschematics hello
+  $ oclifsample hello
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/emjimadhu/vue-schematics-cli/blob/v1.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/emjimadhu/oclif-boilerplate/blob/v1.0.0/src/commands/hello.ts)_
 
-## `vueschematics help [COMMAND]`
+## `oclifsample help [COMMAND]`
 
-display help for vueschematics
+display help for oclifsample
 
 ```
 USAGE
-  $ vueschematics help [COMMAND]
+  $ oclifsample help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
